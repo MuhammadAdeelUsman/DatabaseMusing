@@ -40,7 +40,7 @@ for:
         
         git config --global user.email "iq.adeel@gmail.com" 
         
-        git config --global user.name "MuhammadAdeelUsman"
+        git config --global user.name "Adeel Usman"
         
         git add .
         
