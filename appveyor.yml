@@ -3,7 +3,7 @@ image: Visual Studio 2019
 
 environment:
   access_token:
-    secure: aQ03S2mWlOaOuaT8QBF6dVYG/sb6PgaeUlJ0rijCFs6gN0jxLH7lo0hgDMELamsQ
+    secure: e38088fffe1d8e387c8c2201928b4b8a424f406f
 
 install:
 - cmd: >-
@@ -30,7 +30,7 @@ for:
     - cmd: >-
         mkdir C:\projects\dist\
         
-        git clone -q --branch=gh-pages https://github.com/LowlyDBA/expressdb.git C:\projects\dist\
+        git clone -q --branch=gh-pages https://github.com/MuhammadAdeelUsman/expressdb.git C:\projects\dist\
         
         cd C:\projects\dist\
         
@@ -38,9 +38,9 @@ for:
         
         xcopy "C:\projects\expressdb\.vuepress\dist" "C:\projects\dist" /s
         
-        git config --global user.email "john@lowlydba.com" 
+        git config --global user.email "iq.adeel@gmail.com" 
         
-        git config --global user.name "John M"
+        git config --global user.name "MuhammadAdeelUsman"
         
         git add .
         
