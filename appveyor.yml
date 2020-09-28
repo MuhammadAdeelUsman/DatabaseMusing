@@ -3,7 +3,7 @@ image: Visual Studio 2019
 
 environment:
   access_token:
-    secure: e38088fffe1d8e387c8c2201928b4b8a424f406f
+    secure: aa95f45bd25f8bebfa9e29e5435e37fd4b0c1048
 
 install:
 - cmd: >-
